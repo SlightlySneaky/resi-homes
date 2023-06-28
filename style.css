@@ -20,7 +20,9 @@
 
 .swp-image-wrapper {
   margin-right: 0px;
+  height: 100vh; /* Set the height to 100% of the viewport height */
 }
+
 .swp-links-slider .slick-current.active .active-indicator{
 	transform: rotate(360deg);
 }
