@@ -27,12 +27,8 @@
 	transform: rotate(360deg);
 }
 .swp-links-slider .slick-current .isShow{
-	max-height:330px;
   transition:2s;
 }
-.fcsg-image-wrapper{
-
-@media(max-width:992px){
 
 .swp-links-slider.slick-slider{
 		display:none!important;
