@@ -1,6 +1,6 @@
 $(window).on('resize', function () {
   width = $(window).width();
-  if ($(window).width() > 992) {
+  if ($(window).width()) {
     $('.swp-image-slider').slick({
       slidesToShow: 1,
       slidesToScroll: 1,
@@ -50,7 +50,7 @@ $(window).on('resize', function () {
 
 $(window).on('load', function () {
   width = $(window).width();
-  if ($(window).width() > 992) {
+  if ($(window).width()) {
     $('.swp-image-slider').slick({
       slidesToShow: 1,
       slidesToScroll: 1,
