@@ -10,12 +10,7 @@ $(window).on('resize', function () {
       asNavFor: '.swp-links-slider',
       autoplay: true,
       autoplaySpeed: 8000,
-      responsive: [
-        {
-          breakpoint: 992,
-          settings: "unslick"
-        },
-      ]
+      
     });
     $('.swp-links-slider').slick({
       slidesToShow: 3,
@@ -65,12 +60,7 @@ $(window).on('load', function () {
       asNavFor: '.swp-links-slider',
       autoplay: true,
       autoplaySpeed: 8000,
-      responsive: [
-        {
-          breakpoint: 992,
-          settings: "unslick"
-        },
-      ]
+      
     });
     $('.swp-links-slider').slick({
       slidesToShow: 3,
