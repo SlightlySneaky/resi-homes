@@ -1,0 +1,39 @@
+
+/*css for the slick slider with progressbar*/
+.swp-links-slider .slick-track{
+	display:flex;
+  flex-direction:column;
+}
+.swp-links-slider .slick-slide{
+	width:100%!important;
+}
+.swp-links-slider .swp-link.slick-current > div{
+	color:#072d66;
+}
+.swp-links-slider .slick-current.active .progressbar{
+	width:100%!important;
+  transition: 8s;
+}
+.slick-track{
+	margin-right:0;
+}
+
+.swp-image-wrapper {
+  margin-right: 0px;
+}
+.swp-links-slider .slick-current.active .active-indicator{
+	transform: rotate(360deg);
+}
+.swp-links-slider .slick-current .isShow{
+	max-height:330px;
+  transition:2s;
+}
+.fcsg-image-wrapper{
+
+@media(max-width:992px){
+
+.swp-links-slider.slick-slider{
+		display:none!important;
+  }
+ 
+}
